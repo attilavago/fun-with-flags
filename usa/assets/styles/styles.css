@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.skip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.skip a {
+  position: absolute;
+  left: -9999px;
+  background: #b22234;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.skip a:focus {
+  display: block;
+  position: static;
+  left: 0;
+  padding: .25em 1em;
+}
+
+section.stars {
+  width: 40vw;
+  height: 50vh;
+  float: left;
+}
+
+section.stars > ul {
+  background-color: #3c3b6e;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+section.stars li {
+  list-style-type: none;
+  display: inline-block;
+  width: 15.6%;
+  height: calc(100% / 9);
+  text-align: center;
+}
+
+section.stars li:nth-child(11),
+section.stars li:nth-child(22),
+section.stars li:nth-child(33),
+section.stars li:nth-child(44) {
+  /*width: 100px;*/
+}
+
+section.stars li:nth-child(7),
+section.stars li:nth-child(18),
+section.stars li:nth-child(29),
+section.stars li:nth-child(40) {
+  padding-left: 8.25%;
+}
+
+section.stars li > img {
+  max-height: 90%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.short-lines {
+  width: 60%;
+  height: 50vh;
+  float: right;
+}
+
+section.short-lines > ul > li:nth-child(odd) {
+  background-color: #b22234;
+  height: calc(50vh / 7);
+}
+
+section.short-lines > ul > li:nth-child(even) {
+    height: calc(50vh / 7);
+}
+
+section.long-lines > ul > li:nth-child(odd) {
+    height: calc(50vh / 6);
+}
+
+section.long-lines > ul > li:nth-child(even) {
+  background-color: #b22234;
+    height: calc(50vh / 6);
+}
+
+section.long-lines {
+  width: 100%;
+  float: left;
+}
+
+@media (max-width: 900px) {
+  section.stars {
+    width: 50vw;
+    height: 40vh;
+  }
+
+  section.long-lines {
+    width: 50vw;
+    float: left;
+  }
+
+  section.short-lines {
+    width: 50vw;
+  }
+
+  section.long-lines ul, section.short-lines ul {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-auto-flow: column;
+  }
+
+  section.long-lines > ul > li:nth-child(odd) {
+    height: 60vh;
+    background-color: #b22234;
+  }
+
+  section.long-lines > ul > li:nth-child(even) {
+    height: 60vh;
+    background: white;
+  }
+
+  section.short-lines > ul > li:nth-child(odd) {
+    background-color: #b22234;
+    height: 100vh;
+  }
+
+  section.short-lines > ul > li:nth-child(even) {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 720px) {
+    section.stars li {
+        width: 14.8%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+    section.stars li {
+        width: 13.6%;
+    }
+
+    section.stars li > img {
+        max-height: 65%;
+    }
+}
+
+

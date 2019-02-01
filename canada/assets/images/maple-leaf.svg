@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3700"
+   height="4000"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="Flag of Canada (leaf).svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2449"
+       inkscape:persp3d-origin="600 : 200 : 1"
+       inkscape:vp_z="1200 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 300 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.1"
+     inkscape:cx="4386.3564"
+     inkscape:cy="1742.3701"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="670"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(6301.9231,2019.7179)">
+    <path
+       style="fill:#ff0000"
+       d="M -4469.9953,-1987.7179 L -4775.6498,-1391.6806 C -4810.3284,-1326.9041 -4872.4681,-1332.9148 -4934.6083,-1369.0975 L -5155.9048,-1488.8953 L -4990.9645,-573.40022 C -4956.2846,-406.14425 -5067.5556,-406.14425 -5122.4876,-478.46302 L -5508.6651,-930.47517 L -5571.3652,-700.93131 C -5578.592,-670.7878 -5610.3796,-639.12747 -5658.0767,-646.66674 L -6146.4134,-754.01436 L -6018.1498,-266.46445 C -5990.6857,-157.97976 -5969.2761,-113.06294 -6045.8685,-84.45022 L -6219.9231,1.081017 L -5379.2866,714.9936 C -5346.0162,741.98953 -5329.1955,790.56525 -5341.0499,834.54766 L -5414.6247,1086.9827 C -5125.1776,1052.1028 -4865.6791,1020.8775 -4576.2394,986.03683 C -4550.5175,985.70477 -4507.8726,1008.5595 -4508.0538,1039.532 L -4546.3973,1964.3622 L -4405.6712,1964.3622 L -4427.8273,1041.5208 C -4428.0022,1010.5362 -4389.3288,985.70477 -4363.6069,986.03683 C -4074.1672,1020.8775 -3814.6685,1052.1028 -3525.2214,1086.9827 L -3598.7961,834.54766 C -3610.6505,790.56525 -3593.8299,741.98953 -3560.5595,714.9936 L -2719.9231,1.081017 L -2893.9776,-84.45022 C -2970.5701,-113.06294 -2949.1604,-157.97976 -2921.6964,-266.46445 L -2793.4326,-754.01436 L -3281.7695,-646.66674 C -3329.4666,-639.12747 -3361.2542,-670.7878 -3368.4811,-700.93131 L -3431.1812,-930.47517 L -3817.3586,-478.46302 C -3872.2907,-406.14425 -3983.5617,-406.14425 -3948.8818,-573.40022 L -3783.9417,-1488.8953 L -4005.2379,-1369.0975 C -4067.381,-1332.9148 -4129.5178,-1326.9041 -4164.1964,-1391.6806"
+       id="maple_leaf" />
+  </g>
+</svg>
