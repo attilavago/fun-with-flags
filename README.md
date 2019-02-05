@@ -4,7 +4,7 @@ A list of web accessible flags made with the latest HTML and CSS. The goal of th
 For more context, read the introductory article on [Houghton Mifflin Harcourt's engineering site](https://hmh.engineering/).
 
 ## Current list of accessible flags
-- [USA](https://attilavago.github.io/fun-with-flags/usa/)
-- [Ireland](https://attilavago.github.io/fun-with-flags/ireland/)
-- [Canada](https://attilavago.github.io/fun-with-flags/canada/)
+- [USA](https://attilavago.github.io/fun-with-flags/usa/) 🇺🇸
+- [Ireland](https://attilavago.github.io/fun-with-flags/ireland/) 🇮🇪
+- [Canada](https://attilavago.github.io/fun-with-flags/canada/) 🇨🇦
 
